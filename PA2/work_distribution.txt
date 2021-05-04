@@ -1,0 +1,3 @@
+Boqin Zhang: 33% mpi_poly_evaluator, report
+Siying Cen: 33% broadcast, parallel_prefix
+Yi Jiao: 33% scatter, poly_evaluator

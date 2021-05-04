@@ -1,0 +1,23 @@
+#PBS -N 6220PA2
+#PBS -q coc-ice
+#PBS -o outputP2_final
+#PBS -j oe
+#PBS -l nodes=1:ppn=24
+#PBS -l pmem=1gb
+#PBS -l walltime=00:06:00
+
+#module purge
+#module load intel/15.0
+#module load mvapich2/2.1
+#module load fftw/3.3.4
+#module load mkl/11.2
+
+ulimit -s unlimited
+
+cd ${PBS_O_WORKDIR}
+./poly-eval sample-constants2.txt sample-values2.txt > testNonp_1637809_final.txt
+mpirun -np 2 ./poly-eval sample-constants2.txt sample-values2.txt > testnp2_1637809_final.txt
+mpirun -np 4 ./poly-eval sample-constants2.txt sample-values2.txt > testnp4_1637809_final.txt
+mpirun -np 6 ./poly-eval sample-constants2.txt sample-values2.txt > testnp6_1637809_final.txt
+mpirun -np 8 ./poly-eval sample-constants2.txt sample-values2.txt > testnp8_1637809_final.txt
+mpirun -np 12 ./poly-eval sample-constants2.txt sample-values2.txt > testnp12_1637809_final.txt

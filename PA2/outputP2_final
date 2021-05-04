@@ -1,0 +1,20 @@
+---------------------------------------
+Begin PBS Prologue Tue Mar  9 17:17:35 EST 2021
+Job ID:     60492.sched-coc-ice.pace.gatech.edu
+User ID:    bzhang376
+Job name:   6220PA2
+Queue:      coc-ice
+End PBS Prologue Tue Mar  9 17:17:35 EST 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Epilogue Tue Mar  9 17:17:39 EST 2021
+Job ID:     60492.sched-coc-ice.pace.gatech.edu
+User ID:    bzhang376
+Job name:   6220PA2
+Resources:  nodes=1:ppn=24,pmem=1gb,walltime=00:06:00,neednodes=1:ppn=24
+Rsrc Used:  cput=00:00:17,vmem=316592kb,walltime=00:00:04,mem=4612kb,energy_used=0
+Queue:      coc-ice
+Nodes:     
+atl1-1-02-010-5-r.pace.gatech.edu
+End PBS Epilogue Tue Mar  9 17:17:40 EST 2021
+---------------------------------------
