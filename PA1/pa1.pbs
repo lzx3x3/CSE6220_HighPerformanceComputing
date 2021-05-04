@@ -1,0 +1,18 @@
+#PBS -N 6220PA1
+#PBS -q coc-ice
+#PBS -o outputP1
+#PBS -j oe
+#PBS -l nodes=1:ppn=16
+#PBS -l pmem=1gb
+#PBS -l walltime=00:06:00
+
+#module purge
+#module load intel/15.0
+#module load mvapich2/2.1
+#module load fftw/3.3.4
+#module load mkl/11.2
+
+ulimit -s unlimited
+
+cd ${PBS_O_WORKDIR}
+mpirun -np 4 ./prog1 16000000 1

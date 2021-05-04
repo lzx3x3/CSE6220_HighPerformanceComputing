@@ -1,0 +1,16 @@
+# This is an example PBS script
+#PBS -N 6220prog1 // A name for this run, can be anything
+#PBS -l nodes=2:ppn=8 // 2 nodes, 8 cores in each
+#PBS -l mem=2gb // 2 GB 'Total' memory requirement
+#PBS -l walltime=00:15:00 // 15 min, after which job is killed!!
+#PBS -q coc-ice-multi // submitting to queue named "coc-ice-multi"
+#PBS -o prog1.out // output file name
+#PBS -o prog1.err // stderr file name
+#PBS -m abe // Notify on start, finish and error
+#PBS -M scen9@gatech.edu // via email
+
+
+cd ${PBS_O_WORKDIR}
+module load gcc/8.3.0 mvapich2
+make
+mpirun -np 16 ./prog1 5000000 1
