@@ -1,0 +1,30 @@
+---------------------------------------
+Begin PBS Prologue Tue Apr 20 17:42:53 EDT 2021
+Job ID:     107320.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3-10000
+Queue:      coc-ice-multi
+End PBS Prologue Tue Apr 20 17:42:53 EDT 2021
+---------------------------------------
+[WARNING]: Running the sequential solver. Start with mpirun to execute the parallel version.
+10.8858
+6.79577
+4.05906
+2.85181
+2.32013
+1.72795
+1.66468
+1.45994
+---------------------------------------
+Begin PBS Epilogue Tue Apr 20 17:45:02 EDT 2021
+Job ID:     107320.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3-10000
+Resources:  nodes=6:ppn=12,pmem=6gb,walltime=00:30:00,neednodes=6:ppn=12
+Rsrc Used:  cput=00:19:00,vmem=8088196kb,walltime=00:01:59,mem=7106484kb,energy_used=0
+Queue:      coc-ice-multi
+Nodes:     
+atl1-1-02-003-19-r.pace.gatech.edu atl1-1-02-003-20-l.pace.gatech.edu 
+atl1-1-02-004-15-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 20 17:45:03 EDT 2021
+---------------------------------------

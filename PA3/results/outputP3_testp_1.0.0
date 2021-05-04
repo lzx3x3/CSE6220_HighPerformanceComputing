@@ -1,0 +1,41 @@
+---------------------------------------
+Begin PBS Prologue Tue Apr 20 17:31:18 EDT 2021
+Job ID:     107310.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Queue:      coc-ice-multi
+End PBS Prologue Tue Apr 20 17:31:18 EDT 2021
+---------------------------------------
+[WARNING]: Running the sequential solver. Start with mpirun to execute the parallel version.
+12.9772
+3.6617
+1.95918
+1.36428
+0.977315
+[24] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+0.702537
+[24] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+0.573052
+[48] Failed to dealloc pd (Device or resource busy)
+[28] Failed to dealloc pd (Device or resource busy)
+[24] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+0.481717
+[48] Failed to dealloc pd (Device or resource busy)
+[24] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+---------------------------------------
+Begin PBS Epilogue Tue Apr 20 17:32:28 EDT 2021
+Job ID:     107310.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Resources:  nodes=6:ppn=12,walltime=00:30:00,neednodes=6:ppn=12
+Rsrc Used:  cput=00:14:28,vmem=361440kb,walltime=00:00:53,mem=7068kb,energy_used=0
+Queue:      coc-ice-multi
+Nodes:     
+atl1-1-02-010-3-r.pace.gatech.edu atl1-1-02-010-4-l.pace.gatech.edu 
+atl1-1-02-010-4-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 20 17:32:29 EDT 2021
+---------------------------------------

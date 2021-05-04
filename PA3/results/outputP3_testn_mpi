@@ -1,0 +1,88 @@
+---------------------------------------
+Begin PBS Prologue Tue Apr 20 13:34:25 EDT 2021
+Job ID:     107193.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Queue:      coc-ice
+End PBS Prologue Tue Apr 20 13:34:25 EDT 2021
+---------------------------------------
+0.164629
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+0.651321
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+1.37015
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+2.62906
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+4.1496
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+5.78525
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+7.83096
+[0] Failed to dealloc pd (Device or resource busy)
+[10] Failed to dealloc pd (Device or resource busy)
+10.2257
+[0] Failed to dealloc pd (Device or resource busy)
+[10] Failed to dealloc pd (Device or resource busy)
+---------------------------------------
+Begin PBS Epilogue Tue Apr 20 13:37:43 EDT 2021
+Job ID:     107193.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Resources:  nodes=2:ppn=10,walltime=00:10:00,neednodes=2:ppn=10
+Rsrc Used:  cput=00:51:37,vmem=14903272kb,walltime=00:03:17,mem=12777316kb,energy_used=0
+Queue:      coc-ice
+Nodes:     
+atl1-1-02-003-19-r.pace.gatech.edu atl1-1-02-004-15-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 20 13:37:44 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue Apr 20 13:42:40 EDT 2021
+Job ID:     107197.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Queue:      coc-ice
+End PBS Prologue Tue Apr 20 13:42:40 EDT 2021
+---------------------------------------
+0.154514
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+0.671322
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+1.4786
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+2.5149
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+4.14731
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+5.7268
+[10] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+7.72653
+[0] Failed to dealloc pd (Device or resource busy)
+[10] Failed to dealloc pd (Device or resource busy)
+10.4051
+[0] Failed to dealloc pd (Device or resource busy)
+[10] Failed to dealloc pd (Device or resource busy)
+---------------------------------------
+Begin PBS Epilogue Tue Apr 20 13:45:59 EDT 2021
+Job ID:     107197.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Resources:  nodes=2:ppn=10,walltime=00:10:00,neednodes=2:ppn=10
+Rsrc Used:  cput=00:51:42,vmem=30658964kb,walltime=00:03:18,mem=28414532kb,energy_used=0
+Queue:      coc-ice
+Nodes:     
+atl1-1-02-003-19-r.pace.gatech.edu atl1-1-02-004-15-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 20 13:46:00 EDT 2021
+---------------------------------------

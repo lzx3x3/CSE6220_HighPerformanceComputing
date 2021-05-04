@@ -1,0 +1,26 @@
+#PBS -N 6220PA3-40000
+#PBS -q coc-ice-multi
+#PBS -o outputP3_testp_40000
+#PBS -j oe
+#PBS -l nodes=6:ppn=12
+#PBS -l pmem=6gb
+#PBS -l walltime=00:10:00
+#PBS -e stderr
+
+#module purge
+#module load intel/15.0
+#module load mvapich2/2.1
+#module load fftw/3.3.4
+#module load mkl/11.2
+
+ulimit -s unlimited
+
+cd ${PBS_O_WORKDIR}
+#mpirun -np 1 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 4 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 9 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 16 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 25 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 36 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+#mpirun -np 49 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin
+mpirun -np 64 ./jacobi input_A.bin input_b.bin mpi_output_Ab.bin

@@ -1,0 +1,27 @@
+#PBS -N 6220PA3
+#PBS -q coc-ice
+#PBS -o outputP3_testd_mpi
+#PBS -j oe
+#PBS -l nodes=2:ppn=10
+#PBS -l walltime=00:30:00
+
+#module purge
+#module load intel/15.0
+#module load mvapich2/2.1
+#module load fftw/3.3.4
+#module load mkl/11.2
+
+ulimit -s unlimited
+
+cd ${PBS_O_WORKDIR}
+mpirun -np 16 ./jacobi -n 10000 -d 0.0 
+mpirun -np 16 ./jacobi -n 10000 -d 0.1
+mpirun -np 16 ./jacobi -n 10000 -d 0.2 
+mpirun -np 16 ./jacobi -n 10000 -d 0.3
+mpirun -np 16 ./jacobi -n 10000 -d 0.4 
+mpirun -np 16 ./jacobi -n 10000 -d 0.5 
+mpirun -np 16 ./jacobi -n 10000 -d 0.6 
+mpirun -np 16 ./jacobi -n 10000 -d 0.7
+mpirun -np 16 ./jacobi -n 10000 -d 0.8 
+mpirun -np 16 ./jacobi -n 10000 -d 0.9
+mpirun -np 16 ./jacobi -n 10000 -d 1.0 

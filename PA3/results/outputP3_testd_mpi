@@ -1,0 +1,31 @@
+---------------------------------------
+Begin PBS Prologue Tue Apr 20 13:31:32 EDT 2021
+Job ID:     107189.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Queue:      coc-ice
+End PBS Prologue Tue Apr 20 13:31:32 EDT 2021
+---------------------------------------
+0.325643
+0.381289
+0.422645
+0.487422
+0.555383
+0.626776
+0.703504
+0.88146
+1.00172
+1.1735
+1.24184
+---------------------------------------
+Begin PBS Epilogue Tue Apr 20 13:32:20 EDT 2021
+Job ID:     107189.sched-coc-ice.pace.gatech.edu
+User ID:    scen9
+Job name:   6220PA3
+Resources:  nodes=2:ppn=10,walltime=00:30:00,neednodes=2:ppn=10
+Rsrc Used:  cput=00:11:42,vmem=316460kb,walltime=00:00:48,mem=4372kb,energy_used=0
+Queue:      coc-ice
+Nodes:     
+atl1-1-02-004-15-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 20 13:32:36 EDT 2021
+---------------------------------------
